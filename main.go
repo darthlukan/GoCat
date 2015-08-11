@@ -14,8 +14,8 @@ func main() {
 
 		if err != nil {
 			panic(err)
+		} else {
+			fmt.Printf("%v", string(data))
 		}
-
-		fmt.Printf("%v", string(data))
 	}
 }
